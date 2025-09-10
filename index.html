@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capture Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Capture Pokémon</h1>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pokémon Gerado" id="pokemonGerado">
+        <div class="button-grid">
+            <button class="pokeball-button" onclick="arremessoPokeball()" id="pokeball">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg" alt="Pokébola">
+                Pokébola(5)
+            </button>
+            <button class="greatball-button" onclick="arremessoGreatball()"  id="greatball">
+                <img src="img/great.ico" alt="greatball">
+                greatball(2)
+            </button>
+            <button class="ultraball-button" onclick="arremessoUltraball()" id="ultraball">
+                <img src="img/ultra.ico" alt="ultraball">
+                ultraball(1)
+            </button>
+            <button class="trade-button">Trocar</button>
+        </div>
+        <h3>Pokemons Capturados</h3>
+        <p id="capturados"></p>
+    </div>
+      <script src="app.js" defer></script>
+</body>
+</html>
