@@ -137,7 +137,7 @@ function arremesso(id, nomePokeball, imagem){
         }
     }else{
         if(listaPokeball[0][1]==0 && listaPokeball[1][1]==0 && listaPokeball[2][1]==0){
-            alert(`Game Over ao todo você capturou ${listaCapturados.leight}`)
+            alert(`Game Over ao todo você capturou ${listaCapturados.length}`)
         }else{
         alert(`Sem ${nomePokeball}`);
         }
